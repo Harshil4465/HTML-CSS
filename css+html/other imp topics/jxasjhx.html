@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           color: white;
+        }
+        .box::before{
+            background-image: url(https://plus.unsplash.com/premium_photo-1664382466516-756b1e0721f4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+            background-size: cover;
+            content: '';
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+    <h1>ajsajsa</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur fugiat itaque labore voluptatum molestias perferendis voluptatem, quas corporis ullam accusantium harum earum ipsam ipsa laboriosam unde ducimus natus fuga assumenda.</p>
+</div>
+</body>
+</html>

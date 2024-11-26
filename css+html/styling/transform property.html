@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRnasform Property</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .box {
+            height: 400px;
+            width: 600px;
+            background-color: rgb(98, 6, 6);
+
+            align-items: center;
+            align-content: center;
+            text-align: justify;
+            transition: all 5s ease-in-out ;
+        }
+        .box:hover{
+            border-radius: 100px;
+            
+            font-weight: bold;
+            background-color: rgb(144, 119, 168);
+            /* transform: rotate(360deg); */
+            transform: scale(-1);
+            /* transform: translateX(123px );
+            transform: translatey(123px ); */
+            /* transform: translate(123px, 123px); */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut debitis eius ex culpa atque vitae magnam!
+                Unde quibusdam optio at, quasi accusamus quaerat quisquam. Quod labore magnam a dolorem! Nulla vero
+                adipisci consequuntur excepturi consectetur fuga nobis ab tempore minima pariatur, aliquid rerum ipsam
+                exercitationem obcaecati inventore delectus incidunt maiores.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

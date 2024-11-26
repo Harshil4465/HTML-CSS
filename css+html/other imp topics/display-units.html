@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display unit</title>
+<style>
+    html{
+        font-size: 10px;
+    }
+.container{
+    border: solid 2px red;
+   /* by using vh and vw we can get full width and height of any view point  */
+    /* width: 100vw;
+    height: 100vh; */
+  font-size: 10px;
+}
+/* #first{ */
+    /* by using em unit it multiply size of text or anything according to its parent
+    font-size: 10em;
+    /* in padding it multply with font size */
+    /* padding: 2em;  */
+/* } */
+#second{
+    /* in rem unit it adjust its font size and padding according to the main parent which is html */
+    font-size: 10rem;
+    padding: 2rem;
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="first">THIS IS HEAD</h1>
+        <h1 id="second">THIS IS MAIN</h1>
+        <h1 id="3">THIS IS BOTTOM </h1>
+        <h1 id="4">THIS IS VOID</h1>
+    </div>
+</body>
+</html>

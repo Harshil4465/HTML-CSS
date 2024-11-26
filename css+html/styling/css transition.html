@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transition property</title>
+    <style>
+        .container {
+            background-color: black;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        H1 {
+            color: white;
+            margin: 50px 10px;
+            display: block;
+
+
+        }
+
+        #box {
+            color: white;
+            background-color: rgb(82, 9, 9);
+            display: flex;
+            height: 500px;
+
+            width: 800px;
+            align-items: center;
+            justify-content: center;
+            /* imp part */
+            /* transition-property: background-color;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: .5s; */
+
+            transition: all 2s ease-in-out .5s;
+        }
+
+        #box:hover {
+            background-color: rgb(24, 10, 10);
+            height: 100vh;
+            width: 100vw;
+            border-radius: 50px;
+            font-size: 5rem;
+            opacity: .5;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <H1>Welcome to the web</H1>
+        <div id="box">
+
+
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nulla ipsum minima dignissimos animi totam
+                minus! Quae in quod quas rem distinctio odio magnam dignissimos perspiciatis ex, laboriosam
+                exercitationem! Necessitatibus?</p>
+        </div>
+    </div>
+</body>
+
+</html>
